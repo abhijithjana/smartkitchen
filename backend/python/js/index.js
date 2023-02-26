@@ -8,6 +8,7 @@ app.use(express.json())
 const port=3000;
 
 app.get("/",async (req,res)=>{
+console.log("hh")
 const pythonpross= spawn('python',["../python/yolowebcam/yolo_webcam.py"]);
 
 pythonpross.stdout.on("data",(data)=>{
