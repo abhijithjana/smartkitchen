@@ -4,6 +4,7 @@ import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:smartkitchen/home/services/hservice.dart';
 
 class Home extends StatefulWidget {
+  static const String Routename = 'home';
   const Home({super.key});
 
   @override

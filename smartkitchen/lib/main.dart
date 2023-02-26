@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'smart kitchen',
       onGenerateRoute: ((settings) => generatedrouth(settings)),
-      home: Home(),
+      home: SplashScreen(),
     );
   }
 }
