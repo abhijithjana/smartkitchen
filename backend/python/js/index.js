@@ -3,8 +3,12 @@ const express=require('express');
 const spawn=require('child_process').spawn;
 const fs=require('fs')
 
+
+
 const app=express();
 app.use(express.json())
+const route=require('./route/approute.js')
+app.use(route);
 const port=3000;
 
 app.get("/",async (req,res)=>{
